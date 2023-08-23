@@ -13,3 +13,11 @@
   - 删除容器：docker rm 容器ID
   - 删除镜像：docker rmi 镜像ID
   - docker构造信息：docker inspect
+- Dockerfile 文件详解
+  - FROM：设置基准镜像
+  - WORKDIR：定位到哪个目录下
+  - ADD：复制本地文件到镜像中
+  - CMD：容器启动后用于设置默认执行的命令或者参数
+  - RUN：容器构建时执行命令
+  - ENTRYPOINT：容器启动时执行的命令
+  - EXPOSE：暴露对外端口
