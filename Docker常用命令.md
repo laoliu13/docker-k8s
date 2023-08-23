@@ -7,3 +7,9 @@
   - 列出镜像：docker image ls / docker images
   - 构建镜像：docker build
   - 运行镜像：docker run
+  - 停止镜像：docker stop
+  - 重启镜像：docker restart
+  - 列出镜像｜所有镜像：docker ps / docker ps -a
+  - 删除容器：docker rm 容器ID
+  - 删除镜像：docker rmi 镜像ID
+  - docker构造信息：docker inspect
