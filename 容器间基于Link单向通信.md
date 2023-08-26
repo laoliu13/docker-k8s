@@ -7,3 +7,4 @@
  - 解释
    - 示例中运行一个名为myweb的centos容器，休眠一天
    - --link 就是链接到哪一个需要访问的容器mydb
+   - `docker exec` 登陆到容器验证
