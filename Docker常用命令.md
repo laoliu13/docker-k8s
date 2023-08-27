@@ -1,0 +1,23 @@
+- Docker基本概念
+  - 镜像：指用于容器运行时的程序、库、资源、配置，还包含一些运行时的配置参数；镜像不包含任何动态数据且构建后也不会改变
+  - 容器：容器就是运行镜像的实体，容器可以运行、暂停、删除、销毁
+  - 仓库：用来集中存放镜像
+- 命令
+  - 拉取镜像：docker pull
+  - 列出镜像：docker image ls / docker images
+  - 构建镜像：docker build
+  - 运行镜像：docker run
+  - 停止镜像：docker stop
+  - 重启镜像：docker restart
+  - 列出镜像｜所有镜像：docker ps / docker ps -a
+  - 删除容器：docker rm 容器ID
+  - 删除镜像：docker rmi 镜像ID
+  - docker构造信息：docker inspect
+- Dockerfile 文件详解
+  - FROM：设置基准镜像
+  - WORKDIR：定位到哪个目录下
+  - ADD：复制本地文件到镜像中
+  - CMD：容器启动后用于设置默认执行的命令或者参数
+  - RUN：容器构建时执行命令
+  - ENTRYPOINT：容器启动时执行的命令
+  - EXPOSE：暴露对外端口
