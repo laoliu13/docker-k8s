@@ -1,12 +1,12 @@
 version: '3.3'
 services:
   db:
-    build: ./docker_example_db/ #images
+    build: docker_example_db #images
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root123456
   app:
-    build: ./docker_example/
+    build: docker_example
     depends_on:
       - db
     ports:
